@@ -50,12 +50,27 @@
     </tr>
    </table>
  
-
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" >
        
       <td valign="top" width="75%">
-     <em>3. Long-Short Temporal Modeling for Efficient Action Recognition</em><br>
+     <em>3. Generalizable Black-Box Adversarial Attack with Meta Learning</em><br>
+     Fei Yin, Yong Zhang, Baoyuan Wu, Yan Feng, Jingyi Zhang, Yanbo Fan, Yujiu Yang<br>
+	      <a href="arxiv/2301.00364.pdf">[pdf]</a>, 
+	      <a href="https://arxiv.org/abs/2301.00364">[link]</a><br>
+	      
+        <p></p>
+		<p>&bull; <strong> Abstract: </strong> In the scenario of black-box adversarial attack, the target model's parameters are unknown, and the attacker aims to find a successful adversarial perturbation based on query feedback under a query budget. Due to the limited feedback information, existing query-based black-box attack methods often require many queries for attacking each benign example. To reduce query cost, we propose to utilize the feedback information across historical attacks, dubbed example-level adversarial transferability. Specifically, by treating the attack on each benign example as one task, we develop a meta-learning framework by training a meta-generator to produce perturbations conditioned on benign examples. When attacking a new benign example, the meta generator can be quickly fine-tuned based on the feedback information of the new task as well as a few historical attacks to produce effective perturbations. Moreover, since the meta-train procedure consumes many queries to learn a generalizable generator, we utilize model-level adversarial transferability to train the meta-generator on a white-box surrogate model, then transfer it to help the attack against the target model. The proposed framework with the two types of adversarial transferability can be naturally combined with any off-the-shelf query-based attack methods to boost their performance, which is verified by extensive experiments. <br>
+		</p>
+      </td>
+    </tr>
+   </table>
+	      
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" >
+       
+      <td valign="top" width="75%">
+     <em>4. Long-Short Temporal Modeling for Efficient Action Recognition</em><br>
      Liyu Wu, Yuexian Zou, Can Zhang<br>
 	      <a href="arxiv/2106.15787.pdf">[pdf]</a>, 
 	      <a href="https://arxiv.org/abs/2106.15787">[link]</a><br>
@@ -78,6 +93,24 @@
     
  
 
+	      
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" >
+       
+      <td valign="top" width="75%">
+     <em>5. What do Vision Transformers Learn? A Visual Exploration</em><br>
+     Amin Ghiasi, Hamid Kazemi, Eitan Borgnia, Steven Reich, Manli Shu, Micah Goldblum, Andrew Gordon Wilson, Tom Goldstein<br>
+	      <a href="arxiv/2212.06727.pdf">[pdf]</a>, 
+	      <a href="https://arxiv.org/abs/2212.06727">[link]</a><br>
+	      
+        <p></p>
+		<p>&bull; <strong> Abstract: </strong> Vision transformers (ViTs) are quickly becoming the de-facto architecture for computer vision, yet we understand very little about why they work and what they learn. While existing studies visually analyze the mechanisms of convolutional neural networks, an analogous exploration of ViTs remains challenging. In this paper, we first address the obstacles to performing visualizations on ViTs. Assisted by these solutions, we observe that neurons in ViTs trained with language model supervision (e.g., CLIP) are activated by semantic concepts rather than visual features. We also explore the underlying differences between ViTs and CNNs, and we find that transformers detect image background features, just like their convolutional counterparts, but their predictions depend far less on high-frequency information. On the other hand, both architecture types behave similarly in the way features progress from abstract patterns in early layers to concrete objects in late layers. In addition, we show that ViTs maintain spatial information in all layers except the final layer. In contrast to previous works, we show that the last layer most likely discards the spatial information and behaves as a learned global pooling operation. Finally, we conduct large-scale visualizations on a wide range of ViT variants, including DeiT, CoaT, ConViT, PiT, Swin, and Twin, to validate the effectiveness of our method. <br>
+		</p>
+      </td>
+    </tr>
+   </table>
+    
+	      
 		
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
